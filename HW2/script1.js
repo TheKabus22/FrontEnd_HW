@@ -1,4 +1,4 @@
 let result = prompt('укажите размер в пикселях');
 
-let res = Number(result)
+let res = parseInt(result, 10)
 console.log (res)
