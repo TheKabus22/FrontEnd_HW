@@ -1,40 +1,37 @@
 // ---FUNCTION 1---
-
-// let a = prompt ('Enter the first number')
-// let b = prompt ('Enter the second number')
-
-// function maxNumber (prompts) {
-//  if (a > b) {
-//     console.log (a)
-//  } else {
-//     console.log (b)
-//  }
+// let one = prompt('Enter the first number')
+// let two = prompt('Enter the second number')
+// function maxNumber(a, b) {
+//     if (a > b) {
+//         return a
+//     } else {
+//         return b
+//     }
 // }
-// maxNumber(a,b)
+// const result = maxNumber(one, two)
+// console.log(result)
 
 // ---FUNCTION 2---
 
-// let a = prompt ('Enter your age')
-
-// function checkAge () {
-//  if (a < 18) {
-//     a = Boolean(false)
-//     console.log (a)
-//  } else {
-//     a = Boolean(true)
-//     console.log (a)
-//  }
+// let a = prompt('Enter your age')
+// function checkAge(age) {
+//     if (age > 18) {
+//         return true
+//     } else {
+//         return false
+//     }
 // }
-// checkAge(a)
+// const result = checkAge(a)
+// console.log(result)
 
 // ---FUNCTION 3---
 
 // let some = prompt ('введите любое цифровое или буквенное значение')
 // let some1 = prompt ('Укажите максимальную длинну строки числом')
 
-// function sliceString () {
-//  let result = some.length
-// let result1 = Number(some1)
+// function sliceString (one, two) {
+//  let result = one.length
+// let result1 = Number(two)
 // if (result > result1) {
 //     let res = (some.slice(0, result1) + '…')
 //     console.log (res)
@@ -47,15 +44,15 @@
 
 // ---FUNCTION 4---
 
-// let str = prompt ('Enter the word')
-// let res = str.toLowerCase ()
-// function checkWord () {
-//  if (res==='word') {
-//     let res = Boolean(true)
-//     console.log (res)
-//  } else {
-//     let res = Boolean(false)
-//     console.log (res)
-//  }
-// }
-// checkWord(str,'word')
+let str = prompt('Enter the word')
+let res = str.toLowerCase()
+function checkWord(a) {
+    if (a === 'word') {
+        return true
+    } else {
+        return false
+    }
+}
+let result = checkWord(res)
+
+console.log(result)
