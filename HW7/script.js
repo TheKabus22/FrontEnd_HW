@@ -1,3 +1,5 @@
+// ~~~Arrow Function~~~
+
 // ---FUNCTION 1---
 
 // let one = prompt('Enter the first number')
@@ -40,10 +42,10 @@
 
 // ---FUNCTION 4---
 
-let str = prompt('Enter the word')
-let res = str.toLowerCase()
-const checkWord = a => {
-    return a === 'word'
-}
-let result = checkWord(res)
-console.log(result)
+// let str = prompt('Enter the word')
+// let res = str.toLowerCase()
+// const checkWord = a => {
+//     return a === 'word'
+// }
+// let result = checkWord(res)
+// console.log(result)
