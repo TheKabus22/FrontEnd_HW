@@ -41,7 +41,6 @@
 // ---Array 4---
 
 const users = ['user', 'user1', 'user10', 'user100', 'user1000']
-let users1 = []
 function checkLength (array) {
     const res = array.filter(element => element.length>4)
     return res
