@@ -7,8 +7,8 @@ switch (number) {
         console.log('Ви ввели число 1');
         break
     case '2':
-        console.log('Ви ввели число 2, а може й 3');
     case '3':
         console.log('Ви ввели число 2, а може й 3');
+        default:
+            console.log ('помилився із числом')
 }
-// comment only for commiting
